@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mod-testing1002003:item/sapphire"
+    "layer0": "modtesting1002003:item/sapphire"
   }
 }
