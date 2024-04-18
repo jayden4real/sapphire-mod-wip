@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE);
 
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
 
                         entries.add(ModItems.SAPPHIRE_SWORD);
                         entries.add(ModItems.SAPPHIRE_PICKAXE);

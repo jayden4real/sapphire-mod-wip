@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "modtesting1002003:block/sapphire_ore"
+  }
+}
