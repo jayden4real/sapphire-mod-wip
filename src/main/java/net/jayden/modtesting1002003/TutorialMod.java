@@ -2,6 +2,7 @@ package net.jayden.modtesting1002003;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jayden.modtesting1002003.block.ModBlocks;
 import net.jayden.modtesting1002003.item.ModItemGroups;
 import net.jayden.modtesting1002003.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

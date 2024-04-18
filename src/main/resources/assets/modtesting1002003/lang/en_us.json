@@ -1,5 +1,12 @@
 {
   "item.modtesting1002003.sapphire": "Sapphire",
 
+  "block.modtesting10002003.sapphire_block": "Block of Sapphire",
+
+  "item.modtesting1002003.sapphire_sword": "Sapphire Sword",
+  "item.modtesting1002003.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.modtesting1002003.sapphire_axe": "Sapphire Axe",
+  "item.modtesting1002003.sapphire_shovel": "Sapphire Shovel",
+  "item.modtesting1002003.sapphire_hoe": "Sapphire Hoe",
   "itemgroup.modded": "Modded Items"
 }
