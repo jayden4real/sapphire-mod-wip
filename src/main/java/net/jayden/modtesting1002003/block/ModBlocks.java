@@ -17,7 +17,7 @@ public class ModBlocks {
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), UniformIntProvider.create(2, 5)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
 
 
     private static Block registerBlock(String name, Block block) {
