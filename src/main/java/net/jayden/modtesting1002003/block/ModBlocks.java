@@ -5,17 +5,19 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jayden.modtesting1002003.TutorialMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), UniformIntProvider.create(2, 5)));
 
 
     private static Block registerBlock(String name, Block block) {
