@@ -7,6 +7,7 @@ import net.jayden.modtesting1002003.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -20,12 +21,18 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+    public void generateItemModels(ItemModelGenerator itemModelGenerator)   {
         itemModelGenerator.register(ModItems.SAPPHIRE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.SAPPHIRE_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAPPHIRE_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAPPHIRE_AXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAPPHIRE_SHOVEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAPPHIRE_HOE, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SAPPHIRE_BOOTS));
     }
 }

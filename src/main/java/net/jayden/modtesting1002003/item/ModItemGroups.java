@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE_SHOVEL);
                         entries.add(ModItems.SAPPHIRE_HOE);
 
+                        entries.add(ModItems.SAPPHIRE_HELMET);
+                        entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+                        entries.add(ModItems.SAPPHIRE_LEGGINGS);
+                        entries.add(ModItems.SAPPHIRE_BOOTS);
+
                     }).build());
 
     public static void registerItemGroups() {

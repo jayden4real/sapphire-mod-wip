@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire",
             new Item(new FabricItemSettings()));
+
     public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
             new SwordItem(ModToolMaterial.SAPPHIRE, 7,1, new FabricItemSettings()));
     public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
@@ -22,6 +23,15 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.SAPPHIRE, 3,2, new FabricItemSettings()));
     public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
             new HoeItem(ModToolMaterial.SAPPHIRE, 3,2, new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
