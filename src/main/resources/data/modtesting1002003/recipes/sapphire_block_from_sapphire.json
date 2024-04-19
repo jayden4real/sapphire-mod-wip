@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "modtesting1002003:sapphire"
+    }
+  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
-  "key": {
-    "#": {
-      "item:": "modtesting1002003:sapphire"
-    }
-  },
   "result": {
-    "item": "modtesting1002003:sapphire_block",
-    "count": 1
+    "item": "modtesting1002003:sapphire_block"
   }
 }
